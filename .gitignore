@@ -1,2 +1,6 @@
 # Ignore le répertoire "target"
 target/
+@ Ignore tous les dossiers générs par STS
+.settings/
+.classpath
+.project
