@@ -1,6 +1,10 @@
 # Ignore le répertoire "target"
 target/
-@ Ignore tous les dossiers générs par STS
+
+# Ignore tous les dossiers générs par STS
 .settings/
 .classpath
 .project
+
+# Ignore le fichier dependency-reduced-pom.xml créé par le shade plugin
+dependency-reduced-pom.xml
